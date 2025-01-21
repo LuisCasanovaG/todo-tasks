@@ -1,0 +1,4 @@
+node_modules
+.env
+package-lock.json
+#esto es para que no se incluya al subir el repositorio
