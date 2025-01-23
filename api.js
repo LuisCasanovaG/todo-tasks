@@ -20,7 +20,6 @@ environment = {
 
 var query = 'mongodb+srv://' + environment.DBMONGOUSER + ':' + environment.DBMONGOPASS + '@' + environment.DBMONGOSERV + '/' + environment.DBMONGO + '?retryWrites=true&w=majority&appName=Cluster0';
 
-
 const db = (query);
 
 mongoose.Promise = global.Promise;
